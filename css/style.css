@@ -1,6 +1,7 @@
 h1 {
     font-size: 1.6em;
     background-color: gray;
+    color: blueviolet;
     text-decoration: underline;
     align-items: center;
 }
