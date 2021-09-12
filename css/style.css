@@ -9,4 +9,9 @@ h1 {
 footer {
     align-items: center;
     background-color: gray;
+    color : white;
+}
+
+p {
+    font-size: 1.3em;
 }
