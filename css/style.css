@@ -1,8 +1,11 @@
 h1 {
     font-size: 1.6em;
     background-color: gray;
+    text-decoration: underline;
+    align-items: center;
 }
 
 footer {
+    align-items: center;
     background-color: gray;
 }
