@@ -12,8 +12,11 @@ html {
 
 h1 {
     display: block;
-    margin-block-start: .6em;
-    margin-block-end: .6em;
+    margin: 0.6em;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.6em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-size: 3em;
     background-color: gray;
     color: white;
@@ -25,7 +28,7 @@ h1 {
 
 }
 
-h1 {
+h2 {
     font-size: 2em;
 }
 
