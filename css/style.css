@@ -1,5 +1,5 @@
 h1 {
-    font-size: 1.6em;
+    font-size: 3em;
     background-color: gray;
     color: white;
     text-decoration: underline;
@@ -9,7 +9,7 @@ h1 {
 footer {
     align-items: center;
     background-color: gray;
-    color : white;
+    color: white;
 }
 
 p {
