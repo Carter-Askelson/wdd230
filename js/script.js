@@ -1,15 +1,14 @@
-let date = new Date()
-/*
- attempt to get date working
-*/
-function newdate() {
+let date = new Date();
+
+function writedate() {
+
     let hour = date.getHours();
-    var hourtext = hour;
-    var timeofday = "AM";
+    var hourText = hour;
+    var timeOfDay = 'AM';
     if (hour > 12) {
-        hourtext = hour - 12;
-        timeofday = "PM";
+        hourText = hour - 12;
+        timeOfDay = 'PM';
     }
     document.getElementById("copyright").innerHTML = date.getFullYear();
-    document.getElementById("lastupdate").innerHTML = document.lastModified;
+    document.getElementById("lastUpdate").innerHTML = document.lastModified;
 }
