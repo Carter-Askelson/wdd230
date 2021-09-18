@@ -38,10 +38,11 @@ h2 {
 }
 
 header {
-    height: 100px;
+    height: 50%;
     flex-wrap: wrap;
     border-radius: 20px;
     background-color: gray;
+    background-size: auto, 50%;
     color: white;
     display: flex;
     justify-content: space-between;
