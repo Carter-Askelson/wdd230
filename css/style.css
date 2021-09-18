@@ -21,7 +21,7 @@ h1 {
     margin-inline-end: 0px;
     font-size: 3em;
     background-color: gray;
-    background-size: auto, 150px;
+    background-size: auto, 50%;
     color: white;
     text-decoration: underline;
     font-weight: bold;
