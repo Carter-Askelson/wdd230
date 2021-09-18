@@ -45,6 +45,8 @@ header {
     color: white;
     display: flex;
     justify-content: space-between;
+    width: auto;
+    height: 50%;
 }
 
 body {
@@ -68,11 +70,12 @@ p {
 }
 
 #copyright {
-    font-family: 'monospace', cursive;
+    font-family: 'monospace',     font-family: 'monospace', italic;
+    ;
   }
   
   #lastupdate {
     font-size: 1.0em;
-    font-family: 'monospace', cursive;
+    font-family: 'monospace', italic;
     padding-top: 5px;
   }
