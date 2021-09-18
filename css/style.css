@@ -4,12 +4,10 @@ html {
 }
 
 #profile-pic {
-    height: 180px;
+    height: 200px;
     width: auto;
-    float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-    background-position-y: -20em;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 h1 {
@@ -38,14 +36,12 @@ h2 {
 }
 
 header {
-    height: 25%;
+    height: 90px;
     flex-wrap: wrap;
     border-radius: 20px;
     background-color: gray;
-    background-size: auto, 25%;
     color: white;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
 body {
