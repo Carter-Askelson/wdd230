@@ -1,5 +1,7 @@
 let date = new Date()
-
+/*
+ attempt to get date working
+*/
 function newdate() {
     let hour = date.getHours();
     var hourtext = hour;
