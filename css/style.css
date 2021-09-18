@@ -2,6 +2,11 @@ html {
     line-height: 1.2;
 }
 
+#profile-pic {
+    height: 180px;
+    width: auto;
+    float: right;
+}
 
 h1 {
     display: block;
