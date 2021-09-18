@@ -4,16 +4,12 @@ html {
 }
 
 #profile-pic {
-    z-index: 4;
-    opacity: 1;
-    position: absolute;
-    top: 40px;
-    left: 180px;
-    width: 180px;
-    /* height: 200px;
+    height: 180px;
     width: auto;
-    margin-top: 10px;
-    margin-right: 15px; */
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+    background-position-y: -20em;
 }
 
 h1 {
@@ -42,12 +38,14 @@ h2 {
 }
 
 header {
-    height: 90px;
+    height: 25%;
     flex-wrap: wrap;
     border-radius: 20px;
     background-color: gray;
+    background-size: auto, 25%;
     color: white;
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 body {
