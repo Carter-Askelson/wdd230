@@ -4,10 +4,16 @@ html {
 }
 
 #profile-pic {
-    height: 200px;
+    z-index: 4;
+    opacity: 1;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    width: 180px;
+    /* height: 200px;
     width: auto;
     margin-top: 10px;
-    margin-right: 15px;
+    margin-right: 15px; */
 }
 
 h1 {
