@@ -21,7 +21,7 @@ h1 {
     margin-inline-end: 0px;
     font-size: 3em;
     background-color: gray;
-    background-size: auto, 50%;
+    background-size: auto, 25%;
     color: white;
     text-decoration: underline;
     font-weight: bold;
@@ -38,11 +38,11 @@ h2 {
 }
 
 header {
-    height: 50%;
+    height: 25%;
     flex-wrap: wrap;
     border-radius: 20px;
     background-color: gray;
-    background-size: auto, 50%;
+    background-size: auto, 25%;
     color: white;
     display: flex;
     justify-content: space-between;
