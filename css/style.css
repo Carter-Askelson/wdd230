@@ -1,3 +1,8 @@
+html {
+    line-height: 1.2;
+}
+
+
 h1 {
     display: block;
     margin-block-start: .6em;
@@ -6,10 +11,22 @@ h1 {
     background-color: gray;
     color: white;
     text-decoration: underline;
+    font-weight: bold;
     /* align-items: center;
     margin-top: 15px;
     margin-left: 5px; */
 
+}
+
+header {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0 auto;
 }
 
 footer {
