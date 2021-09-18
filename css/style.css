@@ -1,9 +1,15 @@
 h1 {
+    display: block;
+    margin-block-start: .6em;
+    margin-block-end: .6em;
     font-size: 3em;
     background-color: gray;
     color: white;
     text-decoration: underline;
-    align-items: center;
+    /* align-items: center;
+    margin-top: 15px;
+    margin-left: 5px; */
+
 }
 
 footer {
