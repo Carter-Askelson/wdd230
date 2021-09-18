@@ -1,80 +1,68 @@
-html {
-    line-height: 1.2;
-    -webkit-text-size-adjust: 100%;
-}
-
-#profile-pic {
-    height: 180px;
-    width: auto;
-    float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-    background-position-y: -20em;
-}
-
-h1 {
-    display: block;
-    margin: 0.6em;
-    margin-block-start: 0.6em;
-    margin-block-end: 0.6em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 3em;
-    background-color: gray;
-    background-size: auto, 25%;
-    color: white;
-    text-decoration: underline;
-    font-weight: bold;
-    text-align: center;
-    width: 80%;
-    /* align-items: center;
-    margin-top: 15px;
-    margin-left: 5px; */
-
-}
-
-h2 {
-    font-size: 2em;
-}
-
-header {
-    height: 25%;
-    flex-wrap: wrap;
-    border-radius: 20px;
-    background-color: gray;
-    background-size: auto, 25%;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+a {
+  color: purple;
 }
 
 body {
-    width: 55%;
-    margin: 0 auto;
+  margin: 0 auto;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+header {
+  background-color: cornflowerblue;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+h1 {
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 2.5em;
+  width: 75%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+hr {
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
+
+main {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 footer {
-    
-    height: 70px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 1em;
-    background-color: gray;
-    color: white;
-    padding-top: 30px;
+  background-color: cornflowerblue;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  padding-top: 25px;
 }
 
-p {
-    font-size: 1.3em;
+ul {
+  margin-top: 25px;
+}
+
+#myself {
+  height: 180px;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 #copyright {
-    font-family: 'monospace',     font-family: 'monospace', italic;
-    ;
-  }
-  
-  #lastupdate {
-    font-size: 1.0em;
-    font-family: 'monospace', italic;
-    padding-top: 5px;
-  }
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#lastUpdate {
+  font-size: 1.0em;
+  font-family: 'Baloo Bhaina 2', cursive;
+  padding-top: 5px;
+}
