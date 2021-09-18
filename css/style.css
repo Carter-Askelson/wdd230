@@ -64,3 +64,13 @@ footer {
 p {
     font-size: 1.3em;
 }
+
+#copyright {
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  
+  #lastupdate {
+    font-size: 1.0em;
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding-top: 5px;
+  }
