@@ -1,7 +1,7 @@
-let currentDateAndTime = Date()
+let currentdate = Date()
 
 function newdate() {
-    let hour = date.getHours();
+    let hour = currentdate.getHours();
     var hourtext = hour;
     var timeofday = "AM";
     if (hour > 12) {
