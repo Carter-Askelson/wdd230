@@ -1,4 +1,4 @@
-let currentdate = Date()
+let date = new Date()
 
 function newdate() {
     let hour = currentdate.getHours();
