@@ -70,8 +70,7 @@ p {
 }
 
 #copyright {
-    font-family: 'monospace',     font-family: 'monospace', italic;
-    ;
+    font-family: 'monospace', italic;
   }
   
   #lastupdate {
