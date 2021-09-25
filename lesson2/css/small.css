@@ -1,1 +1,65 @@
+header {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+a {
+    color: fuchsia;
+    font-weight: bolder;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 12px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: black;
+}
+
+p {
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+img { 
+    margin-top: 6px;
+}
+
+section {
+    background-color: cadetblue;
+    border-radius: 12px;
+    text-align: center;
+    margin: 8px;
+}
+
+footer {
+    background-color: darkgray;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#copyright {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #lastupdate {
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+  }
 
