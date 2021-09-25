@@ -12,6 +12,7 @@ html {
 }
 
 h1 {
+    font-family: 'Yaldevi', sans-serif;
     display: block;
     margin: 0.6em;
     margin-block-start: 0.6em;
@@ -33,6 +34,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'Yaldevi', sans-serif;
     font-size: 2em;
 }
 
