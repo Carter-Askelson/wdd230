@@ -6,7 +6,7 @@ header {
 }
 
 a {
-    color: fuchsia;
+    color: blue;
     font-weight: bolder;
 }
 
@@ -48,7 +48,7 @@ section {
     border-radius: 12px;
     text-align: center;
     margin: 8px;
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 footer {
