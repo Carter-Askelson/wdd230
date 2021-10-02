@@ -19,6 +19,10 @@
         max-width: 800px;
     }
 
+    body {
+        width: 1000px;
+    }
+
     
     header{
         height: 80px;
