@@ -23,6 +23,9 @@
         width: 1000px;
     }
 
+    nav ul {display: flex;}
+    nav ul li {flex: 1 1 100%;}
+
     
     header{
         height: 80px;
