@@ -52,3 +52,22 @@
     
 
 }
+
+.contact_summary {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.contact_content {
+    grid-template-columns: 1fr 1fr;
+}
+
+#article_pic {
+    float: right;
+    width: 40%;
+    padding-left: 10px;
+}
+
+#announcment {
+    height: 30px;
+}

@@ -145,4 +145,98 @@ footer {
     padding-top: 5px;
   }
 
+#article_pic {
+    width: 100%;
+}
 
+#announcement {
+    background-color: darkslategray;
+    color: azure;
+    display: none;
+    font-size: 1.4em;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article_content {
+    display: block;
+    padding: 12px;
+    margin-top: 20px;
+    color: darkslategray;
+}
+
+.contact_summary {
+    grid-column: 1;
+    margin: auto;
+}
+
+.contact_summary h3, .contact_summary h4 {
+    color: darkslategray;
+    text-align: center;
+}
+
+.contact_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+#temp1, #temp2, #temp3, #temp4, #temp5 {
+    color: darkslategray;
+} 
+
+#five_Table {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkslategray;
+}
+
+.five_Day {
+    display: none;
+}
+
+#forecast_Day {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: azure;
+    padding: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.five_Day h3, .article_content h3 {
+    text-align: center;
+}
+
+.herodiv {
+    position: relative;
+    margin: 10px auto;
+}
+
+.herodiv img {
+    width: 100%
+}
+
+.at_glance {
+    position: absolute;
+    top: 0px;
+    font-size: .8em;
+    background: radial-gradient(black, azure);
+    padding: 6px;
+    box-shadow: 0 0 25px black;
+    opacity: .75;
+    border: 1px solid black;
+}
+
+.at_glance p {
+    color: white;
+    font-weight: bold;
+}
+
+#google_Map {
+    margin: auto;
+    border: 3px solid Black;
+}

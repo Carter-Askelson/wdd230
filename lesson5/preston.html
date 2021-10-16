@@ -15,20 +15,21 @@
         <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
     </head>
     <body onload="currentdate()">
+        <div id="announcement" style="display: block;"></div>
         <header>
             <picture>
                 <img src="images/site_logo.png" alt="Just in Time Weather Logo">
             </picture>
             <section class="heading">
-                <h1>Just in Time Weather Logo</h1>
+                <h1>Just in Time Weather</h1>
                 <div class="motto">"Weather On Time"</div>
             </section>
         </header>
         <nav>
             <ul class="nav_bar">
-                <li><a href= "#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a href= "#">Home</a></li>
-                <li><a class= "active" href="/lesson4/preston.html">Preston</a></li>
+                <li><a class= "active" href="/lesson5/preston.html">Preston</a></li>
                 <li><a href= "#">Soda Springs</a></li>
                 <li><a href= "#">Fish Haven</a></li>
                 <li><a href= "#">Storm Center</a></li>
@@ -37,10 +38,84 @@
         </nav>
         <main>
             <h2 class= "section_head">Preston</h2>
-            <div class="contents">Hero w/ weather summary</div>
-            <div class="contents">5 Day Forecast</div>
-            <div class="contents">Articles</div>
-            <div class="contents">Contact Us</div>
+            <div class="herodiv">
+                <img src="images/snowy.png" alt= "snowy">
+                <section class = "at_glance">
+                    <h3>Weather at a Glance</h3>
+                    <p>Current: Snowing</p>
+                    <p>Temperature: 12°F</p>
+                    <p>Windchill: High</p>
+                    <p>Humidity: Low</p>
+                    <p>Wind: Extreme</p>
+                </section>
+            </div>
+            <div class="five_Day">
+                <h3>5-Day Forecast</h3>
+                <table id = "five_Table">
+                    <thead>
+                        <tr id="forecast_Day">
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="images/cloudy.png" alt = "Day 1 Forecast">
+                                <br>
+                                <span id="temp1"> 46°F</span>
+                            </td>
+                            <td>
+                                <img src="images/cloudy.png" alt = "Day 2 Forecast">
+                                <br>
+                                <span id="temp2"> 55°F</span>
+                            </td>
+                            <td>
+                                <img src="images/sunny.png" alt = "Day 3 Forecast">
+                                <br>
+                                <span id="temp3"> 62°F</span>
+                            </td>
+                            <td>
+                                <img src="images/rainy.png" alt = "Day 4 Forecast">
+                                <br>
+                                <span id="temp4"> 66°F</span>
+                            </td>
+                            <td>
+                                <img src="images/sunny.png" alt = "Day 5 Forecast">
+                                <br>
+                                <span id="temp5"> 72°F</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="article_content">
+                <img id="article_pic" src="images/ice_storm.jpg" alt="Storm">
+                <h3>Articles</h3>
+                <p>Cover your windows and add an extra blanket to the bed tonight because Ice Storm Issac is rearing it's ugly head all across Idaho tonight.
+                
+                Not only is freezing rain a very possiblity tonight along with the sleet, but a chilled ground soil from last week is going to make most of Idaho an Icicle.
+
+                While a state of Emergency was declared when Ice Storm Issac hit Missouri, the Govenor assures us that our Snow plow teams are ready for the challenge.
+
+                <p>Driving condtions are predicted to be very poor from Tuesday to Thursday in southern Idaho.  We advise to stay indoors when at all possible.</p>
+
+            </div>
+
+            <div class="contact_content">
+                <div class="contact_summary">
+                    <h4>Contact Us</h4>
+                    <h3>0451 Avery Avenue</h3>
+                    <h3>Preston, Idaho 84032</h3>
+                    <h3>555-555-5555</h3>
+                    <h3>help@justintimeweather.com</h3>
+            </div>
+            <iframe id = "google_Map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <a href="https://www.embedgooglemap.net/en/"></a>
         </main>
         <footer>
             <div>
@@ -48,6 +123,6 @@
             </div>
             Last Updated: <span id="lastupdate"></span>
         </footer>
-        <script src="/lesson4.js.date.js"></script>
+        <script src="/lesson5.js.date.js"></script>
         </body>
     </html>
