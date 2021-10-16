@@ -151,7 +151,7 @@ footer {
 
 #announcement {
     background-color: darkslategray;
-    color: azure;
+    color: black;
     display: none;
     font-size: 1.4em;
     padding: 5px;
@@ -232,7 +232,7 @@ footer {
 }
 
 .at_glance p {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
