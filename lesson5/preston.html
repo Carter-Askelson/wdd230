@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Preston's Weather</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content="Weather Site Project Home Page by Carter Askeslon">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
+    </head>
+    <body onload="currentdate()">
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather Logo</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776;</a></li>
+                <li><a href= "#">Home</a></li>
+                <li><a class= "active" href="/lesson4/preston.html">Preston</a></li>
+                <li><a href= "#">Soda Springs</a></li>
+                <li><a href= "#">Fish Haven</a></li>
+                <li><a href= "#">Storm Center</a></li>
+                <li><a href= "#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class= "section_head">Preston</h2>
+            <div class="contents">Hero w/ weather summary</div>
+            <div class="contents">5 Day Forecast</div>
+            <div class="contents">Articles</div>
+            <div class="contents">Contact Us</div>
+        </main>
+        <footer>
+            <div>
+                &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </div>
+            Last Updated: <span id="lastupdate"></span>
+        </footer>
+        <script src="/lesson4.js.date.js"></script>
+        </body>
+    </html>
