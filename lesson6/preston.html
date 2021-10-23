@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Preston's Weather</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content="Weather Site Project Home Page by Carter Askeslon">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet"> -->
+    </head>
+    <body onload="currentdate()">
+        <div id="announcement" style="display: block;"></div>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href= "#">Home</a></li>
+                <li><a class= "active" href="/lesson6/preston.html">Preston</a></li>
+                <li><a href= "#">Soda Springs</a></li>
+                <li><a href= "#">Fish Haven</a></li>
+                <li><a href= "#">Storm Center</a></li>
+                <li><a href= "#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class= "section_head">Preston</h2>
+            <div class="herodiv">
+                <source media="(max-width: 840px)" srcset="/lesson6/images/snowy_med.jpg">
+                <source media="(max-width: 420px)" srcset="/lesson6/images/snowy_small.jpg">
+                <img src="/lesson6/images/snowy.jpg" alt= "snowy_large">
+                <section class = "at_glance">
+                    <h3>Weather at a Glance</h3>
+                    <p>Current: Snowing</p>
+                    <p>High Temperature: <span id="temp">12</span> °F</p>
+                    <p>Windchill: <span id="windchill"></span> °F</p>
+                    <p>Humidity: 15%</p>
+                    <p>Wind Speed: <span id="windspeed">8</span> mph</p>
+                </section>
+            </div>
+            <div class="five_Day">
+                <h3>5-Day Forecast</h3>
+                <table id = "five_Table">
+                    <thead>
+                        <tr id="forecast_Day">
+                            <th>Mon</th>
+                            <th>Tues</th>
+                            <th>Wed</th>
+                            <th>Thurs</th>
+                            <th>Fri</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img id="five_imgs" src="images/cloudy.jpg" alt = "Day 1 Forecast">
+                                <br>
+                                <span id="temp1"> 46°F</span>
+                            </td>
+                            <td>
+                                <img id="five_imgs" src="images/cloudy.jpg" alt = "Day 2 Forecast">
+                                <br>
+                                <span id="temp2"> 55°F</span>
+                            </td>
+                            <td>
+                                <img id="five_imgs" src="images/sunny.jpg" alt = "Day 3 Forecast">
+                                <br>
+                                <span id="temp3"> 62°F</span>
+                            </td>
+                            <td>
+                                <img id="five_imgs" src="images/rainy.jpg" alt = "Day 4 Forecast">
+                                <br>
+                                <span id="temp4"> 66°F</span>
+                            </td>
+                            <td>
+                                <img id="five_imgs" src="images/sunny.jpg" alt = "Day 5 Forecast">
+                                <br>
+                                <span id="temp5"> 72°F</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="article_content">
+                <img id="article_pic" src="images/stormy.jpg" alt="Storm">
+                <h3>Articles</h3>
+                <p>&emsp;Cover your windows and add an extra blanket to the bed tonight because Ice Storm Issac is rearing it's ugly head all across Idaho tonight.
+                
+                Not only is freezing rain a very possiblity tonight along with the sleet, but a chilled ground soil from last week is going to make most of Idaho an Icicle.
+
+                While a state of Emergency was declared when Ice Storm Issac hit Missouri, the Governor assures us that our Snow plow teams are ready for the challenge.
+
+                <p>Very poor driving condtions are predicted from Tuesday to Friday in south Idaho.  We advise to stay indoors when at all possible.</p>
+
+            </div>
+
+            <div class="contact_content">
+                <div class="contact_summary">
+                    <h4>Contact Us</h4>
+                    <h3>0451 Avery Avenue</h3>
+                    <h3>Preston, Idaho 84032</h3>
+                    <h3>555-555-5555</h3>
+                    <h3>help@justintimeweather.com</h3>
+            </div>
+            <iframe id = "google_Map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+        </main>
+        <footer>
+            <div>
+                &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </div>
+            Last Updated: <span id="lastupdate"></span>
+        </footer>
+        <script src="/lesson6.js.date.js"></script>
+        <!-- <script src="/lesson6.js.windchill.js"></script> -->
+        <script src="/lesson6/js/windchill_test.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+        <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+        </body>
+    </html>

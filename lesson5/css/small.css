@@ -48,7 +48,7 @@ h4 {
 
 header img {
     width: auto;
-    height: 100 px;
+    height: 100px;
     padding-right: 12px;
 }
 
@@ -151,7 +151,7 @@ footer {
 
 #announcement {
     background-color: darkslategray;
-    color: azure;
+    color: black;
     display: none;
     font-size: 1.4em;
     padding: 5px;
@@ -181,29 +181,29 @@ footer {
     grid-template-columns: 1fr;
     padding: 12px;
     border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: darkslategray;
+    color: gray;
 } 
 
 #five_Table {
-    width: 750px;
     margin: 0 auto;
+    width: 800px;
     text-align: center;
     color: darkslategray;
 }
 
-.five_Day {
-    display: none;
+#five_imgs {
+    width: 170px;
+    height: 170px;
 }
 
 #forecast_Day {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: azure;
-    padding: 8px 0;
+    background-color: darkslategray;
+    color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -224,7 +224,7 @@ footer {
     position: absolute;
     top: 0px;
     font-size: .8em;
-    background: radial-gradient(black, azure);
+    background: radial-gradient(grey, azure);
     padding: 6px;
     box-shadow: 0 0 25px black;
     opacity: .75;
@@ -232,7 +232,7 @@ footer {
 }
 
 .at_glance p {
-    color: white;
+    color: darkblue;
     font-weight: bold;
 }
 
