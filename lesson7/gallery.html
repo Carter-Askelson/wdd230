@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>Weather Image Gallery</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content="Weather Image Gallery">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" href="favicon.ico">
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet"> -->
+    </head>
+    <body onload="currentdate()"></body>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href= "#">Home</a></li>
+                <li><a class= "active" href="/lesson6/preston.html">Preston</a></li>
+                <li><a href= "#">Soda Springs</a></li>
+                <li><a href= "#">Fish Haven</a></li>
+                <li><a href= "#">Storm Center</a></li>
+                <li><a class= "active" href= "/lesson7/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="gallery_images">
+                <figure>
+                    <img class="galleryImg" alt="Cloudy" src="/lesson7/images/placeholder.jpg" data-src="images/cloudy.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" alt="Rainy" src="/lesson7/images/placeholder.jpg" data-src="images/rainy.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" alt="Snowy" src="/lesson7/images/placeholder.jpg" data-src="images/snowy.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" alt="Stormy" src="/lesson7/images/placeholder.jpg" data-src="images/stormy.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" alt="Sunny" src="/lesson7/images/placeholder.jpg" data-src="images/sunny.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" alt="Clear" src="/lesson7/images/placeholder.jpg" data-src="images/clear.jpg">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            <div>
+                &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </div>
+            Last Updated: <span id="lastupdate"></span>
+        </footer>
+        
+        <script src="/lesson7/js/js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+        <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+        </body>
+    </html>
