@@ -1,0 +1,20 @@
+@media only screen and (min-width: 50em) {
+
+    h1 {
+        font-size: 3em;
+        }
+    h2 {
+        font-size: 2.5em;
+    }
+    .heading h1 {
+            font-size: 3.5em;
+    }
+
+    #gallery_images {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #gallery_images figure:hover{
+        box-shadow: 0 0 60px darkslategray;
+    }
+}

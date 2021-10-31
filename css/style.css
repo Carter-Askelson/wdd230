@@ -4,11 +4,11 @@ html {
 
 #profile-pic {
     height: 180px;
-    
+    width: auto;
     float: right;
-    margin-top: 35px;
-    margin-right: 20px;
-    background-position-y: -20em;
+    margin-top: 20px;
+    margin-right: 300px;
+   
 }
 
 h1 {
@@ -39,19 +39,19 @@ h2 {
 }
 
 header {
-    height: 25%;
-    flex-wrap: wrap;
     border-radius: 20px;
     background-color: gray;
     background-size: auto, 25%;
     color: white;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 body {
     width: 55%;
     margin: 0 auto;
+    font-family: 'Yaldevi', sans-serif;
 }
 
 footer {
@@ -67,6 +67,10 @@ footer {
 
 p {
     font-size: 1.3em;
+}
+
+ul {
+    margin-top: 20px;
 }
 
 #copyright {
