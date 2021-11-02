@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: Ubuntu, sans-serif;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #7fb9c2;
+    box-shadow: 8px 8px 12px black;
+}
+
+tfoot tr td {
+    text-align: center;
+    font-size: .75em;
+    padding: 5px;
+    background-color: #7fb9c2;
+}
+
+th {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: solid 2px slategray;
+    background-color: #628ca6;
+}
+
+td {
+    padding: 5px;
+    border: solid 2px slategray;
+}
+
+tr:nth-child(even) {
+    background: #e7ffed;
+}
+
+tr:nth-child(odd) {
+    background: #e7f0ed;
+}
+
+tr:nth-child(4) tr:nth-child(3) {
+    background: #628ca6;
+    color: whitesmoke;
+}
+
+tr:nth-child(5) tr:nth-child(4) {
+    font-style: italic;
+}
+
+#Sales {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Ubuntu, sans-serif;
+    border: solid 1px slategray;
+    border-collapse: collapse;
+    box-shadow: 8px 8px 12px black;
+}
+
+#super {
+    background: #628ca6;
+    color: whitesmoke;
+}
