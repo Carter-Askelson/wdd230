@@ -72,9 +72,10 @@ main {
 }
 
 .motto {
-    font-size: 1em;
+    font-size: 2em;
     font-style: italic;
     color: black;
+    margin-right: 5em;
 }
 
 nav {

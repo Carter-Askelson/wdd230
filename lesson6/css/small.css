@@ -72,9 +72,10 @@ main {
 }
 
 .motto {
-    font-size: 1em;
+    font-size: 2em;
     font-style: italic;
-    color: #379680;
+    color: black;
+    margin-right: 5em;
 }
 
 nav {
@@ -184,7 +185,7 @@ footer {
 }
 
 #temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: darkslategray;
+    color: black;
 } 
 
 #five_Table {
@@ -194,7 +195,7 @@ footer {
     color: darkslategray;
 }
 
-#five_imgs {
+.five_imgs {
     width: 170px;
     height: 170px;
 }

@@ -38,9 +38,11 @@
         <main>
             <h2 class= "section_head">Preston</h2>
             <div class="herodiv">
+                <picture>
                 <source media="(max-width: 840px)" srcset="/lesson6/images/week6_img_large.jpg">
                 <source media="(max-width: 420px)" srcset="/lesson6/images/week6_img_large.jpg">
                 <img src="images/week6_img_large.jpg" alt= "week6">
+                </picture>
                 <section class = "at_glance">
                     <h3>Weather at a Glance</h3>
                     <p>Current: Snowing</p>
@@ -50,6 +52,7 @@
                     <p>Wind Speed: <span id="windspeed">8</span> mph</p>
                 </section>
             </div>
+            
             <div class="five_Day">
                 <h3>5-Day Forecast</h3>
                 <table id = "five_Table">
@@ -65,29 +68,30 @@
                     <tbody>
                         <tr>
                             <td>
-                                <img id="five_imgs" src="images/cloudy.jpg" alt = "Day 1 Forecast">
+                                <img class="five_imgs" src="images/cloudy.jpg" alt = "Day 1 Forecast">
                                 <br>
                                 <span id="temp1"> 46°F</span>
                             </td>
                             <td>
-                                <img id="five_imgs" src="images/cloudy.jpg" alt = "Day 2 Forecast">
+                                <img class="five_imgs" src="images/cloudy.jpg" alt = "Day 2 Forecast">
                                 <br>
                                 <span id="temp2"> 55°F</span>
                             </td>
                             <td>
-                                <img id="five_imgs" src="images/sunny.jpg" alt = "Day 3 Forecast">
+                                <img class="five_imgs" src="images/sunny.jpg" alt = "Day 3 Forecast">
                                 <br>
                                 <span id="temp3"> 62°F</span>
                             </td>
                             <td>
-                                <img id="five_imgs" src="images/rainy.jpg" alt = "Day 4 Forecast">
+                                <img class="five_imgs" src="images/rainy.jpg" alt = "Day 4 Forecast">
                                 <br>
                                 <span id="temp4"> 66°F</span>
                             </td>
                             <td>
-                                <img id="five_imgs" src="images/sunny.jpg" alt = "Day 5 Forecast">
+                                <img class="five_imgs" src="images/sunny.jpg" alt = "Day 5 Forecast">
                                 <br>
                                 <span id="temp5"> 72°F</span>
+                            </td>
                             </td>
                         </tr>
                     </tbody>
@@ -97,13 +101,13 @@
             <div class="article_content">
                 <img id="article_pic" src="images/stormy.jpg" alt="Storm">
                 <h3>Articles</h3>
-                <p>&emsp;Cover your windows and add an extra blanket to the bed tonight because Ice Storm Issac is rearing it's ugly head all across Idaho tonight.
+                <p>&emsp;&emsp;Cover your windows and add an extra blanket to the bed tonight because Ice Storm Issac is rearing it's ugly head all across Idaho tonight.
                 
                 Not only is freezing rain a very possiblity tonight along with the sleet, but a chilled ground soil from last week is going to make most of Idaho an Icicle.
 
                 While a state of Emergency was declared when Ice Storm Issac hit Missouri, the Governor assures us that our Snow plow teams are ready for the challenge.
 
-                <p>Very poor driving condtions are predicted from Tuesday to Friday in south Idaho.  We advise to stay indoors when at all possible.</p>
+                <p>&emsp;&emsp;Poor driving condtions are predicted from Tuesday to Friday in south Idaho.  We advise to stay indoors when at all possible.</p>
 
             </div>
 
@@ -114,9 +118,10 @@
                     <h3>Preston, Idaho 84032</h3>
                     <h3>555-555-5555</h3>
                     <h3>help@justintimeweather.com</h3>
-            </div>
+                </div>
             <iframe id = "google_Map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
             <a href="https://www.embedgooglemap.net/en/"></a>
+            </div>
         </main>
         <footer>
             <div>
