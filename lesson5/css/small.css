@@ -101,11 +101,11 @@ nav ul li a.active{
     padding: 0.75em;
     display: block;
     font-weight: 800;
-    color: orangered
+    color: #03038C
 }
 
 .nav_bar a:hover {
-    color: darksalmon;
+    color: #03032b;
     background-color:dodgerblue;
 }
 
