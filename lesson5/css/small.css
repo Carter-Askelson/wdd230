@@ -163,7 +163,7 @@ footer {
     display: block;
     padding: 12px;
     margin-top: 20px;
-    color: black;
+    color: darkslategray;
 }
 
 .contact_summary {
@@ -172,7 +172,7 @@ footer {
 }
 
 .contact_summary h3, .contact_summary h4 {
-    color: black;
+    color: darkslategray;
     text-align: center;
 }
 
@@ -186,14 +186,14 @@ footer {
 }
 
 #temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: gray;
+    color: black;
 } 
 
 #five_Table {
     margin: 0 auto;
     width: 800px;
     text-align: center;
-    color: whitesmoke;
+    color: darkslategray;
 }
 
 .five_imgs {
@@ -202,7 +202,7 @@ footer {
 }
 
 #forecast_Day {
-    background-color: black;
+    background-color: darkslategray;
     color: lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
