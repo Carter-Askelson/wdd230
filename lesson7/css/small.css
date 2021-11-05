@@ -10,7 +10,7 @@ body {
 
 header {
     align-items: center;
-    color:cadetblue;
+    color:#000000;
     justify-content: center;
     padding: 6px 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,7 +58,7 @@ main {
 
 .section_head {
     text-align: center;
-    color: cadetblue
+    color: #000000
 }
 
 .contents {
