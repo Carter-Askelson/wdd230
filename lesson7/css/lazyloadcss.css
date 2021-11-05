@@ -17,7 +17,7 @@ body {
 
 header {
     align-items: center;
-    color:cadetblue;
+    color:#000000;
     justify-content: center;
     padding: 6px 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -73,7 +73,7 @@ main {
 
 .section_head {
     text-align: center;
-    color: cadetblue
+    color: #000000
 }
 
 .contents {
@@ -116,11 +116,11 @@ nav ul li a.active{
     padding: 0.75em;
     display: block;
     font-weight: 800;
-    color: orangered
+    color: #03038C
 }
 
 .nav_bar a:hover {
-    color: darksalmon;
+    color: #03032b;
     background-color:dodgerblue;
 }
 
