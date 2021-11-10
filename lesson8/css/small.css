@@ -285,7 +285,7 @@ img {
 }
 
 form fieldset {
-    border: 2px solid #05386B;
+    border: 2px solid black;
     border-radius: 10px;
     margin: 2rem 0;
     padding: .6rem 3%;
@@ -294,14 +294,16 @@ form fieldset {
 form legend {
     font-size: 1.2rem;
     margin: 0 1.2rem;
-    color: #05386B;
+    color: black;
+    font-weight: bold;
     padding: 0 .6rem;
 }
 
 form label.top, form label.user_info, form div {
     display: block;
     font-size: 1rem;
-    color: #05386B;
+    color: black;
+    font-weight: bold;
     padding-top: 1rem;
 }
 
@@ -314,7 +316,8 @@ form label.top input, form label.user_info input, form label.storm_info select {
     width: 100%;
     max-width: 20rem;
     font-size: 1rem;
-    color: #05386B;
+    color: black;
+    font-weight: bold;
     background-color: White;
     border: 2px solid black;
     border-radius: 5px;
@@ -328,7 +331,15 @@ form label.radios {
 
 form label.storm_info {
     display: block;
-    color: #05386B;
+    color: black;
+    font-weight: bold;
+    padding: .8rem 0;
+}
+
+form label.additional_comments {
+    display: block;
+    color: black;
+    font-weight: bold;
     padding: .8rem 0;
 }
 
@@ -336,7 +347,8 @@ form input.submit_button {
     width: 95%;
     max-width: 20rem;
     font-size: 1.6rem;
-    color: #05386B;
+    color: black;
+    font-weight: bold;
     background-color: aquamarine;
     margin: 0 2rem 6%;
     border-radius: 1.6rem;
