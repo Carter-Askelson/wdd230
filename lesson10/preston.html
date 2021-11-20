@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Preston Townpage 10</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content= Preston Townpage 10 by Carter Askeslon">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">   -->
+    </head>
+    <body onload="currentdate()">
+        <div id="announcement" style="display: block;"></div>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <main>
+            <h2 class= "section_head">Preston</h2>
+            <div class="herodiv">
+                <picture>
+                <source media="(max-width: 840px)" srcset="images/snowy_medium.jpg">
+                <source media="(max-width: 420px)" srcset="images/snowy_small.jpg">
+                <img src="images/snowy.jpg" alt= "snowy">
+                </picture>
+                <section class = "at_glance">
+                    <h3>Weather at a Glance</h3>
+                    <p>Current Weather: <span id="currently">°F</p>
+                    <p>Temperature: <span id="temp"></span>°F</p>
+                    <p>Windchill: <span id="windchill"></span></p>
+                    <p>Humidity: <span id="humidity">%</p>
+                    <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                </section>
+            </div>
+        
+
+            <div class="five_Day">
+                <h3>5-Day Forecast</h3>
+                <table id = "five_Table">
+                    <thead>
+                        <tr id="forecast_Day" >
+                            <th><span id="day_1"></span></th>
+                            <th><span id="day_2"></span></th>
+                            <th><span id="day_3"></span></th>
+                            <th><span id="day_4"></span></th>
+                            <th><span id="day_5"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>
+                                <img src="#" alt="" id="img1">
+                                <div id="temp1"></div>
+                            </td>
+                            <td>
+                                <img src="#" alt="" id="img2">
+                                <div id="temp2"></div>
+                            </td>
+                            <td>
+                                <img src="#" alt="" id="img3">
+                                <div id="temp3"></div>
+                            </td>
+                            <td>
+                                <img src="#" alt="" id="img4">
+                                <div id="temp4"></div>
+                            </td>
+                            <td>
+                                <img src="#" alt="" id="img5">
+                                <div id="temp5"></div>
+                            </td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            
+            <div class="article_content">
+                <img id="article_pic" src="images/stormy.jpg" alt="Storm">
+                <h3>Articles</h3>
+                <p>&emsp;&emsp;Cover your windows and add an extra blanket to the bed tonight because Ice Storm Issac is rearing it's ugly head all across Idaho tonight.
+                
+                Not only is freezing rain a very possiblity tonight along with the sleet, but a chilled ground soil from last week is going to make most of Idaho an Icicle.
+
+                While a state of Emergency was declared when Ice Storm Issac hit Missouri, the Governor assures us that our Snow plow teams are ready for the challenge.
+
+
+                <p>&emsp;&emsp;Poor driving condtions are predicted from Tuesday to Friday in south Idaho.  We advise to stay indoors when at all possible.</p>
+
+
+            </div>
+
+            <div class="contact_content">
+                <div class="contact_summary">
+                    <h4>Contact Us</h4>
+                    <h3>0451 Avery Avenue</h3>
+                    <h3>Preston, Idaho 84032</h3>
+                    <h3>555-555-5555</h3>
+                    <h3>help@justintimeweather.com</h3>
+                </div>
+            <iframe id = "google_Map" src="https://maps.google.com/maps?q=Preston%20Idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <a href="https://www.embedgooglemap.net/en/"></a>
+            </div>
+        </main>
+    <footer>
+        <div>
+            &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+        </div>
+        Last Updated: <span id="lastupdate"></span>
+    </footer>
+    <script src="js/test.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+    <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+</body>
+</html>
