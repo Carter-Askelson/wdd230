@@ -9,11 +9,5 @@
     .heading h1 {
             font-size: 3.5em;
     }
-    .cards {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .cards section {
-        display: block;
-        width: 18em;
-    }
+
 }

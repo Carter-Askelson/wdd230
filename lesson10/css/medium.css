@@ -1,101 +1,91 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 30em) {
 
-  #announce {
-    height: 25px;
+  h1 {
+      font-size: 3em;
+      }
+
+  h2 {
+      font-size: 2em;
+  }
+  
+  header img {
+      width: auto;
+      height: 100px;
+      padding-right: 12px
   }
 
-  #article_img {
-    padding-left: 5px;
-    float: right;
-    width: 35%;
+  .motto {
+      font-size: larger;
   }
 
-  .cards section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .heading h1 {
+          font-size: 3em;
   }
 
-  .cards section:nth-child(odd) img {
-    grid-column: 1;
+  main {
+      max-width: 900px;
   }
 
-  .cards section:nth-child(odd) #details {
-    grid-column: 2;
-    grid-row: 1;
+  .nav_bar{
+      display: flex;
   }
 
-  .cards section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .nav_bar li {
+      display: block;
+      flex: 1 1 auto;
   }
 
-  .cards section:nth-child(odd) img {
-    grid-column: 1;
+  .nav_bar li:first-child {
+      display: none;
   }
 
-  .cards section:nth-child(odd) #details {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .contact_info {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .contactdiv {
-    grid-template-columns: 1fr 1fr;
+  .nav_bar a {
+      text-align: center;
   }
 
   footer {
-    border-radius: 15px;
-    height: 55px;
-    max-width: 1000px;
+      border-radius: 20px;
+      max-width: 900px;
+      height: 50px;
   }
 
-  h1 {
-    font-size: 2.5em;
-    margin-top: 0px;
-  }
-
-  h2 {
-    font-size: 1.8em;
-  }
-
-  header img {
-    height: 120px;
-    width: auto;
-    padding-right: 10px;
-  }
-
-	.heading h1 {
-		font-size: 2.5em;
-	}
-
-	.motto {
-		letter-spacing: 1.5pt;
-		font-size: larger;
-  }
   
-  main {
-    max-width: 1000px;
-  }
 
-  .nav_bar {
-		display: flex;
-  }
-  
-	.nav_bar li {
-		display: block; 
-		flex: 1 1 auto;
-  }
-  
-	.nav_bar a {
-		text-align: center;
-  }
-  
-	.nav_bar li:first-child {
-		display: none;
-  }
+
+
+.contact_summary {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.contact_content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.five_Day {
+  display: block;
+}
+
+#article_pic {
+  float: right;
+  width: 40%;
+  padding-left: 10px;
+}
+
+#announcment {
+  height: 30px;
+}
+
+.at_glance {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 1em;
+  background: radial-gradient(black, azure);
+  padding: 2rem;
+  box-shadow: 0 0 25px darkslategray;
+  opacity: .75;
+  border: 1.5px solid black;
+}
 
 }
