@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather Image Gallery</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content="Weather Image Gallery">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" href="favicon.ico">
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet"> -->
+    </head>
+    <body onload="currentdate()">
+        <div id="announcement" style="display: block;"></div>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href= "/wdd230//lesson11/lesson9/index.html">Home</a></li>
+                <li><a href="/wdd230/lesson11/preston.html">Preston</a></li>
+                <li><a href="/wdd230/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/wdd230/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li><a href= "/wdd230//lesson11/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a class= "active" href= "/wdd230//lesson11/lesson7/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="gallery_images">
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/cloudy.jpg" alt="Cloudy">
+                    <figcaption>A bed of Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/rainy.jpg" alt="Rainy">
+                    <figcaption>Rain Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/snowy.jpg" alt="Snowy">
+                    <figcaption>Snowy Mountains</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/stormy.jpg" alt="Stormy">
+                    <figcaption>Storm Clouds</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/sunny.jpg" alt="Sunny">
+                    <figcaption>A Sunny Day</figcaption>
+                </figure>
+                <figure>
+                    <img class="galleryImg" src="images/placeholder.jpg" data-src="images/clear.jpg" alt="Clear">
+                    <figcaption>Clear Skies</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>
+            <div>
+                &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            </div>
+            Last Updated: <span id="lastupdate"></span>
+        </footer>
+        
+        <script src="js/js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+        <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+    </body>
+</html>

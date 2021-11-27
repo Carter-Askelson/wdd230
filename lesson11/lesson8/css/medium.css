@@ -1,0 +1,106 @@
+@media only screen and (min-width: 30em) {
+
+    h1 {
+        font-size: 3em;
+        }
+
+    h2 {
+        font-size: 2em;
+    }
+    
+    header img {
+        width: auto;
+        height: 100px;
+        padding-right: 12px
+    }
+
+    .motto {
+        font-size: larger;
+    }
+
+    .heading h1 {
+            font-size: 3em;
+    }
+
+    main {
+        max-width: 900px;
+    }
+
+    .nav_bar{
+        display: flex;
+    }
+
+    .nav_bar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    .nav_bar li:first-child {
+        display: none;
+    }
+
+    .nav_bar a {
+        text-align: center;
+    }
+
+    footer {
+        border-radius: 20px;
+        max-width: 900px;
+        height: 50px;
+    }
+
+    
+
+
+
+.contact_summary {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.contact_content {
+    grid-template-columns: 1fr 1fr;
+}
+
+.five_Day {
+    display: block;
+}
+
+#article_pic {
+    float: right;
+    width: 40%;
+    padding-left: 10px;
+}
+
+#gallery_images {
+    grid-template-columns: 1fr 1fr;
+}
+
+#announcment {
+    height: 30px;
+}
+
+.at_glance {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 1em;
+    background: radial-gradient(black, azure);
+    padding: 2rem;
+    box-shadow: 0 0 25px darkslategray;
+    opacity: .75;
+    border: 1.5px solid black;
+}
+
+form input.submit_button {
+    max-width: 25rem;
+    width: 95%;
+    font-size: 1.4rem;
+    color: #05386b;
+    background-color: aquamarine;
+    padding: .8rem 1.6rem;
+    margin: 0 0 2rem 3%;
+    border-radius: 1rem;
+}
+
+}

@@ -1,0 +1,60 @@
+@media only screen and (mid-width: 35em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+    img {
+        width: 80%;
+    }
+}
+
+@media only screen and (mid-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    img {
+        width: 90%;
+    }
+}
+
+main {
+    margin: 0 auto;
+    background-color: darkgrey;
+    box-shadow: 0px 0px 10px 5px black;
+    padding: 20px
+}
+
+h1, h2 {
+    font-family: 'Yaldevi', 'Arial';
+    color: darkslateblue;
+    text-align: center;
+}
+
+section {
+    background-color: lightblue;
+    border: solid 2px black;
+    padding-bottom: 15px;
+}
+
+img {
+    display: block;
+    width: 60%;
+    margin: 5px auto 0 auto;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.birth, .birthplace {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px
+}
