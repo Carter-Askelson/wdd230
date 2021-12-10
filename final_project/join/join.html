@@ -1,1 +1,115 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Storm Center Assignment</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content="Storm Center Assignment by Carter Askeslon">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">   -->
+    </head>
+    <body>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Just in Time Weather Logo">
+            </picture>
+            <section class="heading">
+                <h1>Just in Time Weather</h1>
+                <div class="motto">"Weather On Time"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href= "/wdd230//lesson11/lesson9/index.html">Home</a></li>
+                <li><a href="/wdd230/lesson11/preston.html">Preston</a></li>
+                <li><a href="/wdd230/lesson11/sodasprings.html">Soda Springs</a></li>
+                <li><a href="/wdd230/lesson11/fishhaven.html">Fish Haven</a></li>
+                <li><a class= "active" href= "/wdd230//lesson11/lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href= "/wdd230//lesson11/lesson7/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Storm Warning Reporting Center</h2>
+                <form method="GET" action="thanks.html">
+                    <fieldset>
+                        <legend>Your Information</legend>
+                        <label class="user_info">
+                            *Full Name: <input type="text" name="fullname" title="Minumum 3 Characters Required" pattern="^[a-zA-Z\s\-\.]{3,}$" required>
+                        </label>
+                        <!-- Non-required input -->
+                        <label class="user_info">
+                            Email: <input type="email" name="email" placeholder="storm-submission@storm.com">
+                        </label>
+                        <label class="user_info">
+                            *Phone: <input type="tel" name="phone" title="Full 10 Number Phone Number Required" placeholder="012-345-6789" required>
+                        </label>
+                        <label class="user_info">
+                            *Zip Code: <input type="number" name="zipcode" title="Minumum 5 Characters Required" required>
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Storm Information</legend>
+                        <label class="storm_info">
+                            Date of Storm: <input type="date" name="date">
+                        </label>
+                        <label class="storm_info">
+                            *Type of Storm: <input list ="type" name="type" required>
+                            <datalist id="type">
+                                <option value="Thunderstorm"></option>
+                                <option value="Freezing Rain"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Tornado"></option>
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Acid Rain"></option>
+                            </datalist>
+                        </label>
+                        <label class="storm_info">
+                            Severity of Storm: <input type="range" name="storm_severity" min="1" max="10" step="1" value="5" oninput="adjustSeverity(this.value)" onchange="adjustSeverity(this.value)">
+                            <span id="ratingvalue">5</span>
+                        </label>
+                        <label class="storm_info">
+                            Region Location of Storm <select name="region" id="region">
+                                <option selected disabled>Select County...</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda_Springs">Soda Springs</option>
+                                <option value="Fish_Haven">Fish Haven</option>
+                            </select>
+                        </label>
+                        <div class="storm_info">
+                            <p>At Risk of Storm:</p>
+                            <label class="radios"><input type="radio" name="danger_level" value="yes">
+                            <span class="option">Yes</span>
+                            </label>
+                            <label class="radios"><input type="radio" name="danger_level" value="maybe">
+                            <span class="option">Maybe</span>
+                            </label>
+                            <label class="radios"><input type="radio" name="danger_level" value="no">
+                            <span class="option">No</span>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Additional Comments</legend>
+                        <label class="additional_comments">Comments: </label>
+                        <textarea name="comments" id="comments"></textarea>
+                    </fieldset>
+                    <input class="submit_button" type="submit" value="Report This Storm">
+                </form>   
+        </main>
+            <footer>
+                <div>
+                    &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </div>
+                Last Updated: <span id="lastupdate"></span>
+            </footer>
+            <script src="/lesson8/js/js.js"></script>            
+            <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+            <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+    </body>
+</html>
