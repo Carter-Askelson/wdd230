@@ -81,7 +81,7 @@ main {
 nav {
     border-radius: 20px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #FF9D57;
 }
 
 nav ul li a.active{
@@ -107,7 +107,7 @@ nav ul li a.active{
 
 .nav_bar a:hover {
     color: #03032b;
-    background-color:dodgerblue;
+    background-color:#FF8229;
 }
 
 .nav_bar li {
