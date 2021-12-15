@@ -1,0 +1,378 @@
+a {
+    color: black
+}
+
+body {
+    margin: 0 auto;
+    background-color: #CC5500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    align-items: center;
+    color:#000000;
+    justify-content: center;
+    padding: 6px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.heading {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 {
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header img {
+    width: auto;
+    height: 100px;
+    padding-right: 12px;
+}
+
+main {
+    margin: auto;
+}
+
+.section_head {
+    text-align: center;
+    color: #000000
+}
+
+.contents {
+    margin: 12px auto;
+    border: 2px dashed black;
+    padding: 20px;
+    display: block;
+    background-color: lightgray;
+    color: white;
+    font-style: italic;
+}
+
+.motto {
+    font-size: 2em;
+    font-style: italic;
+    color: black;
+    margin-right: 5em;
+}
+
+nav {
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #FF9D57;
+}
+
+nav ul li a.active{
+    background-color: azure;
+}
+
+.nav_bar {
+    text-align: center;
+    list-style: none;
+}
+
+.nav_barli:first-child {
+    display: block;
+}
+
+.nav_bar a {
+    text-align: center;
+    padding: 0.75em;
+    display: block;
+    font-weight: 800;
+    color: #9E4200
+}
+
+.nav_bar a:hover {
+    color: #03032b;
+    background-color:#FF8229;
+}
+
+.nav_bar li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.cards {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    margin-right: 0px;
+}
+
+.cards section {
+    margin: auto;
+    height: auto;
+    background-color: #FF9D57;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.cards section img {
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    filter: blur(0em);
+    transition: filter 2s;
+}
+
+#preston_wireframe {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+footer {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: darkgray;
+    margin-top: 50px;
+    padding-top: 0px;
+    border-radius: 20px;
+    height: 120px;
+}
+
+#social {
+     width: 30%;
+     height: 30%;
+}
+
+#copyright {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+#lastupdate {
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 5px;
+}
+
+#article_pic {
+    width: 100%;
+}
+
+#announcement {
+    background-color: darkslategray;
+    color: azure;
+    display: none;
+    font-size: 1.4em;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.article_content {
+    display: block;
+    padding: 12px;
+    margin-top: 20px;
+    color: darkslategray;
+}
+
+.contact_summary {
+    grid-column: 1;
+    margin: auto;
+}
+
+.contact_summary h3, .contact_summary h4 {
+    color: darkslategray;
+    text-align: center;
+}
+
+.contact_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+#temp1, #temp2, #temp3, #temp4, #temp5 {
+    color: darkslategray;
+} 
+
+#five_Table {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: darkslategray;
+}
+
+#five_imgs {
+    width: 170px;
+    height: 170px;
+}
+
+.five_Day {
+    display: none;
+}
+
+#forecast_Day {
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    background-color: darkslategray;
+    padding: 8px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gallery_images {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+#gallery_images figcaption {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.galleryImg {
+    width: 100%
+}
+
+.five_Day h3, .article_content h3 {
+    text-align: center;
+}
+
+.herodiv {
+    position: relative;
+    margin: 10px auto;
+}
+
+.herodiv img {
+    width: 100%
+}
+
+img[data-src] {
+    filter: blur(0.5em)
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.6s;
+}
+
+#google_Map {
+    margin: auto;
+    border: 3px solid Black;
+}
+
+#comments {
+    height: 90px;
+    width: 320px;
+}
+
+#dates {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding-top: 8px;
+}
+
+#homeTitle {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+#homeTitle img {
+    width: 95%;   
+    height: auto;
+}
+
+form fieldset {
+    border: 2px solid #05386B;
+    border-radius: 10px;
+    margin: 2rem 0;
+    padding: .6rem 3%;
+}
+
+form legend {
+    font-size: 1.2rem;
+    margin: 0 1.2rem;
+    color: #05386B;
+    padding: 0 .6rem;
+}
+
+form label.top, form label.user_info, form div {
+    display: block;
+    font-size: 1rem;
+    color: #05386B;
+    padding-top: 1rem;
+}
+
+form label.user_info input:required {
+    border-left: red solid 8px;
+}
+
+form label.top input, form label.user_info input, form label.storm_info select {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    font-size: 1rem;
+    color: #05386B;
+    background-color: White;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: .6rem;
+}
+
+form label.radios {
+    display: block;
+    padding-top: 1.5em;
+}
+
+form label.storm_info {
+    display: block;
+    color: #05386B;
+    padding: .8rem 0;
+}
+
+form input.submit_button {
+    width: 95%;
+    max-width: 20rem;
+    font-size: 1.6rem;
+    color: #05386B;
+    background-color: #FF9D57;
+    margin: 0 2rem 6%;
+    border-radius: 1.6rem;
+    padding: .8rem 1.6rem;
+}
