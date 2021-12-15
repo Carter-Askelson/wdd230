@@ -311,7 +311,7 @@ form label.user_info input:required {
     border-left: red solid 8px;
 }
 
-form label.top input, form label.user_info input, form label.storm_info select {
+form label.top input, form label.user_info input, form label.business_info select {
     display: block;
     width: 100%;
     max-width: 20rem;
@@ -329,7 +329,7 @@ form label.radios {
     padding-top: 1.5em;
 }
 
-form label.storm_info {
+form label.business_info {
     display: block;
     color: black;
     font-weight: bold;
