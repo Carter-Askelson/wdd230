@@ -96,8 +96,8 @@ form input.submit_button {
     max-width: 25rem;
     width: 95%;
     font-size: 1.4rem;
-    color: #05386b;
-    background-color: aquamarine;
+    color: black;
+    background-color: #FF9D57;
     padding: .8rem 1.6rem;
     margin: 0 0 2rem 3%;
     border-radius: 1rem;
