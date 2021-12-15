@@ -102,7 +102,7 @@ nav ul li a.active{
     padding: 0.75em;
     display: block;
     font-weight: 800;
-    color: #03038C
+    color: #9E4200
 }
 
 .nav_bar a:hover {
@@ -165,7 +165,7 @@ footer {
     color: black;
     background-color: darkgray;
     margin-top: 50px;
-    padding-top: 25px;
+    padding-top: 50px;
     border-radius: 20px;
 }
 
@@ -284,22 +284,6 @@ img {
     transition: filter 0.6s;
 }
 
-.at_glance {
-    position: absolute;
-    top: 0px;
-    font-size: .8em;
-    background: radial-gradient(black, azure);
-    padding: 6px;
-    box-shadow: 0 0 25px darkslategray;
-    opacity: .75;
-    border: 1.5px solid black;
-}
-
-.at_glance p {
-    color: white;
-    font-weight: bold;
-}
-
 #google_Map {
     margin: auto;
     border: 3px solid Black;
@@ -326,12 +310,6 @@ img {
 #homeTitle img {
     width: 95%;   
     height: auto;
-}
-
-#preston_wireframes {
-    text-align: center;
-    padding-top: 8px;
-    padding-bottom: 8px;
 }
 
 form fieldset {
