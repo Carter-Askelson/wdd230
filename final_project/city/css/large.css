@@ -1,0 +1,24 @@
+@media only screen and (min-width: 50em) {
+
+    h1 {
+        font-size: 3em;
+        }
+    h2 {
+        font-size: 2.5em;
+    }
+    .heading h1 {
+            font-size: 3.5em;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards section {
+        display: block;
+        width: 18em;
+    }
+}
+
+#social {
+     width: 30%;
+     height: 30%;
+}
