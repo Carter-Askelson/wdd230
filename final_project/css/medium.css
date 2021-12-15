@@ -99,3 +99,29 @@
   }
 
 }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.home-headline-1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.home-paragraph-1 {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+
+.home-headline-2 {
+  grid-column: 3 / 6;
+  grid-row: 1 / 2;
+}
+
+.home-paragraph-2 {
+  grid-column: 3 /6;
+  grid-row: 2 / 3;
+}
