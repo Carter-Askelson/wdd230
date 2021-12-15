@@ -81,11 +81,11 @@ main {
 nav {
     border-radius: 20px;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #FF9D57;
 }
 
 nav ul li a.active{
-    background-color: azure;
+    background-color: #FF8229;
 }
 
 .nav_bar {
@@ -102,12 +102,12 @@ nav ul li a.active{
     padding: 0.75em;
     display: block;
     font-weight: 800;
-    color: #03038C
+    color: #FF9D57
 }
 
 .nav_bar a:hover {
     color: #03032b;
-    background-color:dodgerblue;
+    background-color:#FF8229;
 }
 
 .nav_bar li {
