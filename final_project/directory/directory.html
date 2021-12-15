@@ -1,1 +1,61 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Commercial Guild Mainpage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Carter Askelson">
+        <meta name="description" content= "Commercial Guild Mainpage by Carter Askelson">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">   -->
+    </head>
+    <body onload="currentdate()">
+        <div id="announcement" style="display: block;"></div>
+        <header>
+            <picture>
+                <img src="images/site_logo.png" alt="Rexburg Commercial Guild Logo">
+            </picture>
+            <section class="heading">
+                <h1>Rexburg Commercial Guild</h1>
+                <div class="motto">"Sustainable Growth Forever"</div>
+            </section>
+        </header>
+        <nav>
+            <ul class="nav_bar">
+                <li><a href= "#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a class= "active" href= "/wdd230/final_project/main.html">Home</a></li>         
+                <li><a href="/wdd230/final_project/city/city.html">City</a></li>
+                <li><a href="/wdd230/final_project/join/join.html">Join</a></li>
+                <li><a href= "/wdd230/final_project/directory/directory.html">Directory</a></li>
+                <li><a href= "/wdd230/final_project/contact/contact.html">Contact</a></li>                                                    
+            </ul>
+        </nav>
+        <main>
+            <div class="herodiv">
+                <picture>
+                <source media="(max-width: 840px)" srcset="images/rexburg-med.jpg">
+                <source media="(max-width: 420px)" srcset="images/rexburg_small.jpg">
+                <img src="images/rexburg_large.jpg" alt= "home img">
+                </picture>
+            </div>
+        </main>
+    <footer>
+        <div>
+            &copy;<span id="copyright"></span> | Carter W. Askelson | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+            <a href="https://www.facebook.com/">
+            <img src="https://i.ibb.co/pxbPN2r/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com">
+            <img src="https://i.ibb.co/bPFbv3v/twitter.png" alt="Twitter">
+            </a>
+        </div>
+        Last Updated: <span id="lastupdate"></span>
+    </footer>
+        <script src="js/js.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfront/1.6.26/webfront.js"></script>
+    <script>WebFront.load({google: {families: ['Yaldevi', 'Arial']}})</script>
+</body>
+</html>
