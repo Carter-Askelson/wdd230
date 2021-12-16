@@ -223,34 +223,7 @@ footer {
     border: 2px solid black;
 }
 
-#temp1, #temp2, #temp3, #temp4, #temp5 {
-    color: darkslategray;
-} 
 
-#five_Table {
-    width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    color: darkslategray;
-}
-
-#five_imgs {
-    width: 170px;
-    height: 170px;
-}
-
-.five_Day {
-    display: none;
-}
-
-#forecast_Day {
-    align-items: center;
-    justify-content: center;
-    color: azure;
-    background-color: darkslategray;
-    padding: 8px 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 #gallery_images {
     display: grid;
@@ -319,7 +292,7 @@ img {
 }
 
 form fieldset {
-    border: 2px solid #05386B;
+    border: 2px solid #FF9D57;
     border-radius: 10px;
     margin: 2rem 0;
     padding: .6rem 3%;
@@ -328,14 +301,14 @@ form fieldset {
 form legend {
     font-size: 1.2rem;
     margin: 0 1.2rem;
-    color: #05386B;
+    color: #FF9D57;
     padding: 0 .6rem;
 }
 
 form label.top, form label.user_info, form div {
     display: block;
     font-size: 1rem;
-    color: #05386B;
+    color: #FF9D57;
     padding-top: 1rem;
 }
 
@@ -348,7 +321,7 @@ form label.top input, form label.user_info input, form label.storm_info select {
     width: 100%;
     max-width: 20rem;
     font-size: 1rem;
-    color: #05386B;
+    color: #FF9D57;
     background-color: White;
     border: 2px solid black;
     border-radius: 5px;
@@ -362,7 +335,7 @@ form label.radios {
 
 form label.storm_info {
     display: block;
-    color: #05386B;
+    color: #FF9D57;
     padding: .8rem 0;
 }
 
